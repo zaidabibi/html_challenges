@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link type="text/css" rel="stylesheet" href="css/forms_style.css">
+</head>
+<body>
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Mouse"><br>
+
+      <legend>Password:</legend>
+      <input type="text" name="password" value="12345"><br><br>
+
+      <form>
+        <legend>Gender:</legend>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other <br>
+      </form>
+
+      <h4>Questions</h4>
+      <p>How often do you visit coffee shops?</p>
+      <select>
+        <option value="rarely">Rarely</option>
+        <option value="a lot">A lot</option>
+        <option value="most of the time">Most of the time</option>
+      </select>
+      <br>
+      <br>
+      <p>What is your favorite coffee shop? Where is it located?</p>
+      <textarea rows="6" cols="50">
+      </textarea>
+      <p>What do you typically order to drink?</p>
+      <select>
+        <option value="coffee">Coffee</option>
+        <option value="cuppachinno">cuppachinno</option>
+        <option value="espresso">Espresso</option>
+        <option value="other">Other</option>
+      </select>
+      <p>  Do you prefer large, national chain coffee shops or small, privately owned coffee shops?</p>
+      <textarea rows="6" cols="50">
+      </textarea>
+      <br>
+      <br>
+      <form action="/action_page.php">
+        <input type="submit" value="Send survey">
+      </form>
+      <br>
+      <br>
+      <input type="reset" value="Reset">
+
+    </body>
+    </html>

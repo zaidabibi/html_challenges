@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <meta charset="utf-8">
+  <title></title>
+  <link rel= "stylesheet" href="css/1style.css" type="text/css">
+  <style>
+  label textarea{
+    vertical-align: top;
+  }
+  </style>
+
+</head>
+<body>
+
+  <center>
+    <h2> Registration Form</h2>
+    <form>
+      <!-- form action - action is an attribute -->
+       <div style="width:250px; margin-left:-10px">
+      <label for="[object Object]">User Id:</label>
+      <input type="text" name="User Id" required placeholder="Required and must be a lenth of 5 to 12" pattern=".{0}|.{5,12}" required title="Id must be between 5 and 12 characters">
+    </div>
+
+<div style="width:250px; margin-left:-24px">
+      <p>  <label for="[object Object]">Password:</label>
+        <input type="password" name="lastname" required placeholder="Required and must be a length of 7 to 12" pattern=".{0}|.{7,12}" required title="Id must be between 7 and 12 characters"></p>
+</div>
+<div style="width:250px; margin-left:-2px">
+        <p><label for="[object Object]">Name:</label>
+          <input type="Name" name="firstname" required placeholder="Required and alphabets only"></p>
+        </div>
+
+        <div style="width:250px; margin-left:-10px">
+          <p><label for="[object Object]">Address:</label>
+            <input type="Address" name="lastname"required placeholder="Optional"></p>
+          </div>
+
+
+<div style="width:250px; margin-left:-75px">
+           <label for="[object Object]">Country:</label>
+
+
+            <select>
+              <option value="Belgium">Belgium</option>
+              <option value="Albania">Albania</option>
+              <option value="America">America</option>
+              <option value="South Africa">South Africa</option>
+              <option value="Germany">Germany</option>
+              <option value="Scotland">Scotland</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="Europe">Europe</option>
+            </select>
+</div>
+
+
+<div style="width:250px; margin-left:-10px">
+            <p> <label for="[object Object]">Zip code:</label>
+              <input type="number" name="zip code" placeholder="Required must be numeric only"><br></p>
+            </div>
+
+
+              <p><label for="[object Object]">Email Address:</label>
+                <input type="email" name="email address" placeholder="Must be a valid email address"><br></p>
+
+
+
+                <label for="[object Object]">Sex:</label>
+                <label for="[object Object]">Male</label>
+                <input type="radio" name="gender" placeholder="male" checked>
+                <label for="[object Object]">Female</label>
+                <input type="radio" name="gender" placeholder="female">
+                <!-- input tags are only closed with > -->
+
+                <p>Language:<input type="checkbox" name="vehicle" value="Bike" checked required>English <input type="checkbox" name="vehicle" value="Bike">Non-english<br></p>
+
+                <label for="[object Object]">About:<textarea name="message" rows="10" cols="70"> Optional </textarea>
+                </label>
+
+                <p><input type="submit" value="Submit">
+                </fieldset></p>
+              </form>
+
+
+
+
+
+
+
+
+            </body>
+            </html>

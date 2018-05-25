@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+   body {
+        color: red;
+
+    }
+
+    /* p {
+        color: blue;
+    } */
+
+
+h1  {
+      color: green;
+  }
+
+
+  h2, h3 {
+        color: black;
+    }
+
+/* attributes are always on the first tag */
+
+/* Dot notatation refers to class */
+/* examples */
+
+/* classes are multiple , style multiple things however ID's are singular*/
+
+/* ID's are unique and very specific _ dont startwith capital letters or numbers
+ID's are # */
+    <p class= "text-white"/>
+    <div class= "new text-white"/>
+
+
+    /* Order is important in css */
+/* a selctor is called a selctor because it selects which part of the html element is styled  */
+/* styling o css is very specific */
+
+
+/* Do not repeat yourself , it makes your webpage slow and overides other code
+We write code that is smart. */
+
+/* text -white {
+                 color:white;
+} */
+
+/* Property and values are pairs */
+
+/* p:nth of type (2) */
+
+
+
+</style>
+...
+
+
+
+input[type=text] {
+   border: 2px solid red;
+   border-radius: 4px;
+}
+
+
+body{
+  background-image: url("books3.jfif");
+  background-position: bottom;
+  background-size: cover;
+}

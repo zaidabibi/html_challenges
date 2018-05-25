@@ -1,0 +1,63 @@
+<head>
+  <title>Nested Table Challenge</title>
+  <table border="1" style="width:10%">
+
+    <tr>
+      <td> 1 </td>
+      <td COLSPAN="3"> 2 </td>
+    </tr>
+    <tr>
+      <td ROWSPAN="3"> 3 </td>
+      <td style="background:orange">4</td>
+      <td style="background:orange">5</td>
+      <td ROWSPAN="2" style="background:yellow"> 6 </td>
+    </tr>
+    <tr>
+      <td style="background:orange"> 7 </td>
+      <td style="background:orange"> 8 </td>
+    </tr>
+    <tr>
+      <td COLSPAN="2" style="background:yellow"> 9 </td>
+      <td style="background:yellow"> 10 </td>
+    </tr>
+  </table>
+
+
+
+  <head>
+    <title>NestedTableChallenge</title>
+    <style>
+    table,th,td {
+      border: 3px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <b>Manipulating table properties</b>
+      <table style="width:10%;">
+        <tr>
+          <td>1</td>
+          <td colspan="4">2</td>
+        </tr>
+        <tr>
+          <td rowspan="3">3</td>
+          <td style="background:orange">4</td>
+          <td style="background:orange">5</td>
+          <td rowspan="2" colspan="2" style="background:yellow">6</td>
+        </tr>
+        <tr>
+          <td style="background:orange">7</td>
+          <td style="background:orange">8</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="background:yellow">9</td>
+          <td colspan="2" style="background:yellow">10</td>
+        </tr>
+      </table>
+    </div>

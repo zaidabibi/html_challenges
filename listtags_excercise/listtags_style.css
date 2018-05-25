@@ -1,0 +1,30 @@
+body{
+ width:400px;
+ margin:0 auto;
+ background-color: #272d2d;
+ border:3px solid #a39ba8;
+ border-radius: 50px;
+ padding: 50px 20px;
+ margin-top: :20px;
+}
+
+h1{
+  color : #b8c5d6;
+}
+
+h2{
+   color:#cd8987;
+}
+
+p{
+  color: #ff4be3;
+}
+
+ul{
+   color: #220c10
+}
+
+li {
+      color: #220c10
+
+}
